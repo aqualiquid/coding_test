@@ -4,7 +4,7 @@ import sys
 class Solutions:
     def divideString(self, s: str, k: int, fill: str) -> List[str]:
         groups= []
-        for i in range(0, len(s), k):₩
+        for i in range(0, len(s), k):
             group = s[i:i+k]
             if len(group) < k:
                 group += fill * (k-len(group))
