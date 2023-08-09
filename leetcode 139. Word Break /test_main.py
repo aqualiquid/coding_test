@@ -1,5 +1,5 @@
 from unittest import TestCase
-from main import Solutions
+from main import Solution
 
 class TestSolution(TestCase):
     def test1_word_break(self):
@@ -8,17 +8,17 @@ class TestSolution(TestCase):
             True,
             solution.wordBreak(
                 'leetcode',
-                ['leet', 'code']
+                ['leet','code']
             )
         )
 
     def test2_word_break(self):
-        solution = Solution()
+        solution=Solution()
         self.assertEqual(
             True,
             solution.wordBreak(
                 'applepenapple',
-                ['apple', 'pen']
+                ['apple','pen']
             )
         )
 
