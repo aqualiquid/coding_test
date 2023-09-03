@@ -29,3 +29,4 @@ class TestSolution(TestCase):
             3
             )
         )
+
