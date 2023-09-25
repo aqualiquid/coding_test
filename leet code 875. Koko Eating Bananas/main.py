@@ -8,13 +8,13 @@ class Solution:
         res=-1
 
         while l<=r :
-            k = (l+r)//2
+            mid = (l+r)//2
             t_times=0
             for p in piles:
-                t_times += math.ceil(p / k)
+                t_times += math.ceil(p / mid)
             if t_times <= h:
-                res= k
-                r = k-1
+                res= mid
+                r = mid-1
             else:
-                l= k+1
+                l= mid+1
         return res
