@@ -10,3 +10,4 @@ class Solution:
             if modified_string[i] != modified_string[n - 1 - i]:
                 return False
         return True
+# cannot generate testcases due to improt error of "re"
