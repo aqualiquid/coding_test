@@ -19,6 +19,9 @@ class Solution:
                 left_max = max(left_max, height[left])
                 result += left_max - height[left]
             else:
+                # left_max > right_max:
+                # things that you should know that, we need to consider the followings:
+                # right_max = left_max
                 right -= 1
                 right_max = max(right_max, height[right])
                 result += right_max - height[right]
