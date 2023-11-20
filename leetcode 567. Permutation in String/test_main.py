@@ -1,9 +1,9 @@
 from unittest import TestCase
-from main import Solution
+from main_defaultdict import Solution_dict
 
 class TestSolution(TestCase):
     def test1_checkInclusion(self):
-        solution = Solution()
+        solution = Solution_dict()
         self.assertEqual(
             True,
             solution.checkInclusion(
@@ -12,7 +12,7 @@ class TestSolution(TestCase):
         )
 
     def test2_checkInclusion(self):
-        solution = Solution()
+        solution = Solution_dict()
         self.assertEqual(
             False,
             solution.checkInclusion(
