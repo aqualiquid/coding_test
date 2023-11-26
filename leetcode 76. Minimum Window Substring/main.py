@@ -1,4 +1,6 @@
 import collections
+# most of the code has been referred by CodePul's test method:' \
+# Referece: https://github.com/skysign/WSAPT/blob/master/leetcode.com%2076.%20Minimum%20Window%20Substring/main.py
 
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
