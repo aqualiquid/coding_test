@@ -1,7 +1,6 @@
 import heapq
 from typing import Optional, List
 
-
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -10,6 +9,7 @@ class ListNode:
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         min_heap = []
+
 
         for i, lst in enumerate(lists):
             if lst:
