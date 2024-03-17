@@ -50,3 +50,4 @@ N = 4
 print(f"4x4 체스판에 퀸을 배치하는 경우의 수: {solve_n_queens(N)}")
 
 # https://chat.openai.com/c/f6cc5762-c6ac-4815-a016-b95cbce2b02e
+# N-queen explain : https://oeis.org/A002562
