@@ -1,5 +1,5 @@
 class Solutions:
-
+# Geedy algorithm
 
     def find_min_intercept(self, targets):
         answer =0
