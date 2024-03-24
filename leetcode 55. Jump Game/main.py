@@ -1,5 +1,8 @@
+from typing import List
+
+
 class Solution:
-    def can_jump(nums):
+    def canJump(self, nums: List[int]) -> bool:
         max_reach = 0
         target = len(nums) - 1
 
