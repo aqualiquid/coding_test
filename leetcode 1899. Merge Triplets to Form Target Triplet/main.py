@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def mergeTriplets(self, triplets: List[List[int]], target: List[int]) -> bool:
         max_a, max_b, max_c = 0, 0, 0
