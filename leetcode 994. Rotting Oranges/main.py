@@ -19,7 +19,7 @@ class Solution:
         directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
         inc_min = 0
 
-        # BFS
+        # BFS solved : comp with leetcode 130.
         while queue and fresh_cnt > 0:
             inc_min +=1
             for _ in range(len(queue)):
