@@ -26,3 +26,13 @@ class Solution:
             nums1[k] =nums2[j]
             i-=1
             j-=1
+        """
+The time complexity for this merge algorithm is O(m + n), where m is the length of the first array (nums1) and n is the length of the second array (nums2).
+This is because:
+
+In the worst case, the algorithm needs to traverse both arrays completely
+Each element is processed exactly once
+The operations inside the loops (comparisons and assignments) are constant time
+
+The space complexity is O(1) since the algorithm performs the merge in-place without requiring any extra space proportional to the input size.
+        """
