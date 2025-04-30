@@ -15,6 +15,6 @@ class Solution:
                 reorder[idx] = char
                 idx += 2
                 freq -= 1
-                if idx > n:
+                if idx >p n:
                     idx = 1
         return ''.join(reorder)
